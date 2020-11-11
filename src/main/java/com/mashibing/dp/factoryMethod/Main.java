@@ -9,7 +9,7 @@ public class Main {
      /* Broom b = new Broom();
         b.go();*/
 
-     Moveable m  = new CarFactory().createCar();
+     Moveable m  = new CarFactory().create();
      m.go();
     }
 }
